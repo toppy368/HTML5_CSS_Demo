@@ -7,6 +7,11 @@ h1 {color:green}
 
 h2 {color:#0000CD}
 
+.CSS3-warning {
+	color:red; 
+	background-color:Orange
+	}
+
 .css3_tabletitle {
 	color:white;
 	font-style:italic;
