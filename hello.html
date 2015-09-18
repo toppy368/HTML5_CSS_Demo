@@ -1,0 +1,87 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>練習</title>
+		<!--引入"外部"css樣式表檔案-->
+		<link rel="stylesheet" type="text/css" href="hello.css">
+		<!--以下的 style 標籤為 class 樣式選擇器-->
+		<style>
+			h1 {color:green}
+			.tabletitle {color:white;background:#8B0000;font-style:italic}
+			.Even-numbered_row {background:#C0C0C0;}
+		</style>
+	</head>
+	<body>
+		<h1>Hello! HTML 5!</h1></p>
+		<b>網站連結</b></br>
+			<ol>
+				<li><a href="http://tw.yahoo.com">Yahoo ! </a></li>
+				<li><a href="http://www.google.com">Google !</a></li>
+			</ol></p>
+		<b>表格</b></br>
+			<table>
+				<tr><td>姓名</td><td>身高</td><td>體重</td></tr>
+				<tr><td>888</td><td>999</td><td>000</td></tr>
+				<tr><td>111</td><td>222</td><td>333</td></tr>
+				<tr><td>444</td><td>555</td><td>666</td></tr>
+			</table>
+		</p>
+		<b>圖片</b></br>
+			絕對路徑</br>
+				<img width="500" src="http://3.bp.blogspot.com/-VeU4Q5KiI2o/TjjGDc2nj9I/AAAAAAAAACg/iztqeW_h06c/s1600/1.jpg">
+			</p>
+			相對路徑</br>
+				<img width="500" src="images/1.jpg">
+			</p>
+		<b>意見回饋</b></br>
+			<form>
+				姓名:<input type="text" name="UserName" size="40"/></br>
+				E-mail：<input type="text" name="UserEmail" size="40"/></br>
+				是否匿名：&nbsp;是<input type="radio" name="Anonymous">&nbsp;否<input type="radio" name="Anonymous"></br>
+				瀏覽網頁的方式：&nbsp手機<input type="checkbox" name="Phone">&nbsp傳統電腦網頁<input type="checkbox" name="PC"></br>
+				請在以下欄位填入您的意見：</br>
+					<textarea name="UesrTrouble" cols="45" rows="4">請在這裡輸入您的意見，謝謝 ! </textarea></br>
+				回應您意見的方式：</br>
+					<select name="ResponsesOption[]" size="1"  >
+						<option value="comments">留言</option>
+						<option value="Email">Email</option>
+					</select></br>
+				<input type="submit" value="送出">
+				<input type="reset" value="重新輸入"></br>
+			</form></p>
+			<h1>2015/1/21&nbsp;練習</h1>
+			<h2 style="text-shadow:12px 8px 5px orange">CSS</h2></p>
+			<b>以下文字將套入CSS，套入字體&顏色：</b></br>
+				<p style="font-family:'標楷體'">溫情總在意想不到的地方綻放！9旬獨居老榮民胡壽宏，捐出一生清苦積下的股票500萬元資助榮眷遺孤，擴大認養全國榮孤，創下榮民捐款的最高額紀錄，認養的榮孤超過50人。</p>
+				<p style="font-family:'標楷體';text-decoration:underline;">高齡93歲的胡壽宏，1949年隨部隊來台，1956年即因傷退伍，之後陸續在公路局及新竹市培英國中等單位當工友，直到1983年退休，之後30年，都獨居在新竹縣新埔鄉下租賃的10坪陋屋，過著「一簞食，一瓢飲」的儉樸生活。</p>
+				<p style="font-family:'標楷體'">針對鴻海集團今(19)日大動作登報，要求台北市政府將招標書、過程等一切相關文件，在48小時內上網公開。台北市長柯文哲中午親自出面對鴻海反擊指出，<span style="text-decoration:line-through;">有意見隨時可進市府溝通，而鴻海財大氣粗，花3百萬以上買廣告傳達訊息</span>，台北市政府是公家機關，<b>不是</b><span style="color:#ff0000">「鴻海公司附設台北市政府」</span>。對這件事情他相當不滿，「財團怎麼可以用這種態度跟政府講話？這國家是被財團控制的嗎？」</p>
+			<h2>表格CSS練習</h2></p>
+			<b>美國棒球大聯盟，美聯東區戰績</b></p>
+				<table>
+					<tr class="tabletitle"><td>球隊</td><td>勝</td><td>負</td></tr>
+					<tr><td>美國洋基</td><td>999</td><td>000</td></tr>
+					<tr class="Even-numbered_row"><td>波士頓紅襪</td><td>222</td><td>333</td></tr>
+					<tr><td>巴爾狄摩金鶯</td><td>555</td><td>666</td></tr>
+				</table></p>
+			<h2>CSS3 漸層表格練習</h2>
+			<p><span style="color:red; background-color:Orange">CSS3標準制定中，可能會因為瀏覽器的不同產生觀賞上的差異</span></p>
+			<b>美國棒球大聯盟，美聯東區戰績</b></p>
+				<table>
+					<tr class="css3_tabletitle"><td>球隊</td><td>勝</td><td>負</td></tr>
+					<tr><td>美國洋基</td><td>999</td><td>000</td></tr>
+					<tr class="Even-numbered_row"><td>波士頓紅襪</td><td>222</td><td>333</td></tr>
+					<tr><td>巴爾狄摩金鶯</td><td>555</td><td>666</td></tr>
+				</table></p>
+			<h2>解釋：</h2></p>
+			CSS表格中，第一個表格的標題欄(第一行)及偶數行，CSS寫在head，以class樣式選擇器來設定樣式</br>
+			而CSS3漸層表格則是將樣式寫在hello.css檔案，引入外部的檔案，同樣以class樣式選擇器來設定樣式</br>
+			為了避免背景圖片蓋掉背景顏色，背景圖片經過修圖去背，再從hello.css檔引入圖片相對網址</p>
+				
+			<!--絕對定位與相對定位的設定，圖片會檔掉以下文字，所以註解掉，可用CSS樣式的z-index設定值來解決此問題-->
+			<h2>絕對/相對定位</h2></p>
+			絕對位置：</br>
+			<img width="500" src="images/1.jpg" style="position:relative;top:50px;lift:100px">
+			</p>
+			
+	</body>
+</html>
