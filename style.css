@@ -16,9 +16,10 @@ h2 {color:#0000CD}
 	background: linear-gradient(
 						to bottom, 
 						#feccb1 0%,
+						#ea5507 40%,
 						#f17432 50%,
-						#ea5507 51%,
-						#fb955e 100%);
+						#fb955e 100%); 
+						/* W3C  for URL：http://www.colorzilla.com/gradient-editor/ */
 	}
 	
 
