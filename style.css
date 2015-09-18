@@ -11,6 +11,16 @@ h2 {color:#0000CD}
 	color:red; 
 	background-color:Orange
 	}
+.CSS3-WARNING-NEW {
+	color:red;
+	background: linear-gradient(
+						to bottom, 
+						#feccb1 0%,
+						#f17432 50%,
+						#ea5507 51%,
+						#fb955e 100%);
+	}
+	
 
 .css3_tabletitle {
 	color:white;
